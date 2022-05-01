@@ -35,14 +35,19 @@ body {
   right: -60%;
   width: 160%;
   height: 100%;
-
-  /* global 92%+ browsers support */
   background: radial-gradient(
     ellipse at 110% 50%,
     rgba(50, 50, 50, 0.8) 0%,
     rgba(230, 230, 230, 0.2) 80%
   );
 }
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .call-to-action {
   position: absolute;
   top: 45%;
@@ -119,8 +124,15 @@ body {
   margin: 0.3rem 40%;
 }
 
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
+.grid {
+  position: relative;
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: 90px auto;
+  padding: 0;
+}
+.grid article {
+  margin: 20px auto;
 }
