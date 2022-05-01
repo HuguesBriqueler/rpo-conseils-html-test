@@ -125,14 +125,39 @@ body {
 }
 
 .grid {
+  width: 610px;
   position: relative;
   display: grid;
-  align-items: baseline;
+  gap: 50px 20px;
+  align-items: end;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
   margin: 90px auto;
   padding: 0;
 }
 .grid article {
-  margin: 20px auto;
+  margin: 80px auto;
+  position: relative;
+}
+/* .grid article p {
+  position: absolute;
+} */
+.was {
+  position: absolute;
+  bottom: 150px;
+  left: 60%;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.crossed-out {
+  position: absolute;
+  bottom: 175px;
+  left: 60%;
+}
+.now {
+  position: absolute;
+  bottom: 100px;
+  left: 60%;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #f06400;
 }
