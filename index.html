@@ -113,7 +113,7 @@
           </div>
         </article>
       </div>
-      <div class="advantages">
+      <section class="advantages">
         <button class="all-offers-btn">
           VOIR TOUTES LES OFFRES EN COURS<span>></span>
         </button>
@@ -137,8 +137,24 @@
             <p>Perte financiere</p>
           </div>
         </div>
-      </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section class="choice container">
+        <form>
+          <label for="liste">Sélectionnez votre véhicule</label>
+          <select name="liste" id="liste">
+            <option class="placeholder" value="">
+              Volkswagen Tiguan Conf...
+            </option>
+            <option value="renault-scenic">Renault Scénic</option>
+            <option value="audi-a1-sportback">Audi A1 Sportback</option>
+            <option value="volkswagen-tiguan">Volkswagen Tiguan</option>
+            <option value="dacia-duster">Dacia Duster</option>
+          </select>
+          <button>RECHERCHER<span>></span></button>
+        </form>
+      </section>
+    </footer>
   </body>
 </html>
