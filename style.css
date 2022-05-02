@@ -140,9 +140,7 @@ button {
   position: relative;
   margin: 80px auto 120px;
 }
-/* .grid article p {
-  position: absolute;
-} */
+
 .was {
   position: absolute;
   bottom: 135px;
@@ -242,7 +240,7 @@ button {
 .prestations {
   display: flex;
   justify-content: space-around;
-  margin: 20px auto;
+  margin: 20px auto 10px;
 }
 
 .presta {
@@ -258,4 +256,46 @@ button {
   width: 55px;
   height: 55px;
   margin: 0;
+}
+.choice {
+  position: relative;
+  padding: 25px 30px;
+  background-color: #00b1af;
+}
+.choice form {
+  padding: 10px 30px;
+  background-color: #fff;
+}
+.choice label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.choice select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+  font-size: 0.8rem;
+  width: 150px;
+  height: 30px;
+}
+.placeholder {
+  display: none;
+}
+.choice button {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  background-color: #f06400;
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-left: 30px;
+  border: none;
+  border-radius: 25px;
+}
+.choice span {
+  margin-left: 20px;
+  font-size: 1rem;
 }
