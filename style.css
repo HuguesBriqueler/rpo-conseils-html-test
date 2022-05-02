@@ -12,6 +12,9 @@ body {
   margin: 0;
   padding: 0;
 }
+button {
+  cursor: pointer;
+}
 .container {
   position: relative;
   width: 650px;
@@ -130,7 +133,7 @@ body {
   /* :gap 50px 20px; */
   align-items: end;
   grid-template-columns: repeat(2, 1fr);
-  margin: 90px auto;
+  margin: 90px auto 0;
   padding: 0;
 }
 .grid article {
@@ -198,5 +201,61 @@ body {
 .serie {
   font-size: 1.1rem;
   font-weight: 400;
+  margin: 0;
+}
+
+.advantages {
+  position: relative;
+  display: block;
+  width: 610px;
+  margin: 0 auto;
+  padding: 0;
+}
+.advantages h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 20px 0 5px;
+}
+.underline {
+  width: 40%;
+  height: 5px;
+  background-color: #f06400;
+}
+.all-offers-btn {
+  right: 15px;
+  width: 380px;
+  height: 50px;
+  margin: 10px 135px;
+  background-color: #f06400;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: text-center;
+  padding: 0;
+  border: none;
+  border-radius: 25px;
+}
+.all-offers-btn span {
+  margin-left: 30px;
+  font-size: 1.3rem;
+}
+.prestations {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.presta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+.presta img {
+  width: 55px;
+  height: 55px;
   margin: 0;
 }
